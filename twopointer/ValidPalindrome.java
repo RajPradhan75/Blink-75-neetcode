@@ -39,7 +39,8 @@ public class ValidPalindrome {
 			} else if (!Character.isLetterOrDigit(cTail)) {
 				tail--;
 			} else {
-				if (Character.toLowerCase(cHead) != Character.toLowerCase(cTail)) {
+				if (Character.toLowerCase(cHead) 
+						!= Character.toLowerCase(cTail)) {
 					return false;
 				}
 
